@@ -1,0 +1,39 @@
+@import "syntax"
+
+// Make links in blog description stand out.
+h2.page-description
+  a
+    color: #ff6d29
+    text-decoration: none
+    font-weight: bold
+
+  a:hover
+    text-decoration: underline
+
+// Move search to front to be visible.
+div#st-launcher-tab
+  z-index: 11
+
+footer.site-footer
+  background-color: #497D93
+  color: rgba(255,255,255,0.8)
+  height: 65px
+  font-size: 1.1rem
+
+  a
+    color: #ff6d29
+
+    .fa
+      font-size: 14px
+      vertical-align: middle
+
+// Remove weird black transparency around down icon.
+.home-template
+  .main-header:after
+    background: none !important
+
+// Green subscribe button
+a.subscribe-button.btn-success
+  color: #ffffff !important
+  background: #5cb85c
+  margin-bottom: 10px
